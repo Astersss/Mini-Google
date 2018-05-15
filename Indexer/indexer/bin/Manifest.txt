@@ -1,0 +1,3 @@
+Main-Class: indexer.IndexerDriver
+Class-Path: ../lib/*.jar
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/protobuf-java-2.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/hadoop-common-2.7.3.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/hadoop-mapreduce-client-core-2.7.3.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/jackson-databind-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/jackson-annotations-2.9.0-20161011.053116-27.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/jackson-core-2.9.0-20160930.222323-13.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/je-6.2.31.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/jsoup-1.10.2.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/stanford-corenlp-3.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/stanford-corenlp-3.7.0-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/stanford-corenlp-3.7.0-models.jar"/>
+	<classpathentry kind="lib" path="/Users/aosun/Desktop/workspace_new/title/lib/joda-time-2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

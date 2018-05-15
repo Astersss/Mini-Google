@@ -1,0 +1,24 @@
+INSTRUCTION TO RUN THIS PROJECT:
+
+to run aws, crawler and UploadingtoDynamoDB, you need aws sdk installed on eclipse 
+or you need to add aws jars to make it compile.
+
+to run three components in indexer folder, you need to download and configure hadoop-2.7.3 on your machine or EC2 and feed those jobs correct input and in the meantime specify the output folder.
+
+to run Search Engine, you need the following jar files:
+
+jcommander-1.35.jar
+jgoodies-forms-1.8.0-sources.jar
+jgoodies-forms-1.8.0.jar
+json_simple-1.1.jar
+json.jar
+protobuf-java-3.0.2.jar
+scribe-1.3.5.jar
+stanford-corenlp-3.7.0-models-english.jar
+stanford-corenlp-3.7.0.jar
+
+In the meantime, pom.xml specifies all dependencies. Put pom.xml into a menven web app project
+To compile, in the path of pom.xml input the command : mvn clean, mvn compile, mvn package
+A war file will be produced in target folder. Putting war file into Jetty/Tomcat will run the project
+
+to run SparkPageRank, make sure you include all the dependencies specified in its pom.xml.
